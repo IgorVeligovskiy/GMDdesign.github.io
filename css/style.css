@@ -1,0 +1,38 @@
+html {
+	font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: darkgrey;
+    line-height: 1.5;
+}
+
+.header {
+	background:  #00000f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+}
+
+.logo{
+    background:  url("../img/MyLogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image{
+    background:  url("../img/hand.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.content{
+	background:  #00000f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+}
