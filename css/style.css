@@ -4,35 +4,88 @@ html {
     color: darkgrey;
     line-height: 1.5;
 }
+img{
+    display: inline-block;
+}
+/* GRID */
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    
+}
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.col-4{
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+}
+.col-4:last-child{
+    margin-right: 0px;
+}
 
+/* HEADER */
 .header {
-	background:  #00000f;
+	background:  black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 8vh;
+    height: 50px;
+    
+    display: flex;
+    font-size: 40px;
+    text-align: right;
 }
 
-.logo{
+/* BACKGROUND LOGO */
+.bg_logo{
     background:  url("../img/MyLogo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    opacity: 0.7; /* альфа */
+    height: 85vh;
 }
-
-.image{
-    background:  url("../img/hand.jpg");
+/* Android developing */
+.bg_mobile_gaming{
+    background:  black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 50px;
+    
+    font-size: 40px;
 }
-
+/* CONTENT */
 .content{
-	background:  #00000f;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 10vh;
+	padding-top: 70px;
+    padding-bottom: 100px;
+}
+.content-item{
+    margin-bottom: 20px
+}
+/* FOOTER */
+.footer{
+    background-color: black;
+}
+/* MEDIA */
+@media (max-width: 1160px){
+    .container{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
 }
