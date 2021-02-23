@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(33, 31, 30);
+}
 html {
 	font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -13,9 +16,9 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.row{
+/* .row{
     
-}
+} */
 .row:after{
     clear: both;
     content: "";
@@ -44,13 +47,19 @@ img{
 }
 
 /* BACKGROUND LOGO */
-.bg_logo{
-    background:  url("../img/MyLogo.jpg");
+.background{
+    background:  url(../img/BG2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.7; /* альфа */
+    opacity: 0.7;
     height: 85vh;
+}
+.logotype{
+    
+    opacity: 0.2;
+    height: 85vh;
+    width: 1024px;
 }
 /* Android developing */
 .bg_mobile_gaming{
@@ -70,6 +79,13 @@ img{
 .content-item{
     margin-bottom: 20px
 }
+.content-item-img{
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid;
+    border-radius: 10%;
+}
+
 /* FOOTER */
 .footer{
     background-color: black;
